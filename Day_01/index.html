@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <title>Conversor de moedas</title>
+</head>
+<body>
+    <div class="firt">
+        <h1 class="title">Conversor de moedas</h1>
+        <p class="decoration">R$ > U$</p>
+        <p class="principal">Descubra os valores em DÓLAR!</p>
+    </div>
+    <div class="img"><img src="image/lucas-favre-MNXaW_ABlZY-unsplash.jpg" alt="Homem segurando dolar"></div>
+    <div class="final">
+        <p>#Imersao DEV_</p>
+    </div>
+    <script>
+        var dolar = prompt('Quanto você quer converter de REAL para DÓLAR:')
+        var dolarNumber = parseFloat(dolar)
+        var real = dolarNumber*5.51
+        realFixed = real.toFixed(2)
+        alert ('Você tem: ' + ' R$ ' + realFixed)
+    </script>
+</body>
+</html>
