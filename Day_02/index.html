@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <img id="img1" src="https://images.pexels.com/photos/6368848/pexels-photo-6368848.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="background office">
+    <div class="right">
+        <h1>Calculadora básica</h1>
+        <input type="number" class="number" id="firstNumber"></input>
+        <input type="number" class="number" id="secondNumber"></input><br>
+        <h2>Selecione a operação</h2>
+        <div id="operação">
+            <button value="Somar" id="soma" onclick="somar()" onmouseenter="somarTextIn()" onmouseout="somarTextOut()">Somar</button>
+            <button value="Subtração" id="subtrair" onclick="subtrair()" onmouseenter="subtrairTextIn()" onmouseout="subtrairTextOut()">Subtração</button>
+            <button value="Multiplicação" id="multiplicar" onclick="multiplicar()"  onmouseenter = "multiplicarTextIn()" onmouseout = "multiplicarTextOut()">Multiplicação</button>
+            <button value="Divisão" id="dividir" onclick="dividir()" onmouseenter="dividirTextIn()" onmouseout="dividirTextOut()">Divisão</button>
+    </div>
+    </div>
+    <p id="resultado">Resultado</p>
+    
+
+    <script src="script.js"></script> 
+</body>
+</html>
