@@ -45,10 +45,9 @@ h1 {
 
 }
 #resultado {
-    position: absolute;
+    position: relative;
     display: inline-block;
-    bottom: 30%;
-    margin-left: 5%;
+    bottom: 400px;
     font-size: 100px;
     width: 200px;
     text-align: center;

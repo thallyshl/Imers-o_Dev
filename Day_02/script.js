@@ -7,7 +7,6 @@ var subtracao = document.getElementById("subtrair")
 var multiplicacao = document.getElementById("multiplicar")
 var divisao = document.getElementById("dividir")
 
-
 function somar() {
     resultadoF.innerHTML = (parseFloat(firstNumber.value) + parseFloat(secondNumber.value))
 }
@@ -44,3 +43,4 @@ function multiplicar() {
 function dividir() {
     resultadoF.innerHTML = (parseFloat(firstNumber.value) / parseFloat(secondNumber.value)).toFixed(3)
 }
+
