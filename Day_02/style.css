@@ -6,13 +6,13 @@
 body {
     padding: 0%;
     margin: 0%;
-    background-color: #ffebcd;
+    background-color: black;
 }
 #img1 {
     display: inline-block;
     opacity: 50%;
     width: auto;
-    height: 800px;
+    height: 500px;
 }
 #img2 {
     position: relative;
@@ -31,8 +31,9 @@ h1 {
     position: absolute;
     display: inline-block;
     background-color: #ffebcd;
-    width: 60%;
+    width: 49%;
     line-height: 50px;
+    height: 500px;
 }
 .number {
     text-align: center;
@@ -45,12 +46,12 @@ h1 {
 
 }
 #resultado {
-    position: relative;
-    display: inline-block;
-    bottom: 400px;
+    position: absolute;
+    /*display: inline-block;*/
+    top: 40%;
+    left: 52%;
     font-size: 100px;
     width: 200px;
-    text-align: center;
 }
 #operação {
     display: flexbox;
@@ -62,4 +63,8 @@ button {
     width: 15%;
     height: 30px;
     border: 1px solid #000000;
+}
+#principal {
+    margin-left: 14%;
+    margin-top: 2%;
 }
