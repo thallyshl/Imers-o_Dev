@@ -4,7 +4,7 @@
 body {
     font-family: 'Roboto Mono',monospace;
     min-height: 600px;
-    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-03-mentalista.png');
+    background-image: url('http://3.bp.blogspot.com/-4sNjckN4TUk/T7hmKmrs7XI/AAAAAAAAHK8/q4jBI-NS_UY/s1600/Various-Wallpapers-the-mentalist-19258129-1366-768.jpg');
     background-color: #000000;
     background-size: cover;
     background-position: center bottom;
@@ -12,9 +12,12 @@ body {
   }
   
   .container {
+    margin-left: 40%;
     text-align: center;
     padding: 20px;
-    height: 100vh;
+    height: auto;
+    width: 250px;
+    background-color: #000000;
   }
   
   .page-title {
@@ -42,4 +45,12 @@ body {
     body {
       min-height:800px;
     }
+  }
+  #start {
+    margin-top: 15px;
+    padding: 5px;
+    font: 20px normal arial;
+    font-weight: bolder;
+    color: white;
+    background-color: #000000;
   }
